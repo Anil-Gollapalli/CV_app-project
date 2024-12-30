@@ -1,0 +1,28 @@
+/* src/components/EducationExperience.css */
+.education-experience {
+    margin-bottom: 20px;
+  }
+  
+  .education-experience label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .education-experience input {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .education-experience button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .education-experience button:hover {
+    background-color: #0056b3;
+  }
+  

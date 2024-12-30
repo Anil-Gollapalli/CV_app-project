@@ -1,0 +1,28 @@
+/* src/components/PracticalExperience.css */
+.practical-experience {
+    margin-bottom: 20px;
+  }
+  
+  .practical-experience label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .practical-experience input {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .practical-experience button {
+    padding: 10px;
+    background-color: #ffc107;
+    color: black;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .practical-experience button:hover {
+    background-color: #e0a800;
+  }
+  

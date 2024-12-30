@@ -1,0 +1,28 @@
+/* src/components/GeneralInfo.css */
+.general-info {
+    margin-bottom: 20px;
+  }
+  
+  .general-info label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .general-info input {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .general-info button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .general-info button:hover {
+    background-color: #218838;
+  }
+  
