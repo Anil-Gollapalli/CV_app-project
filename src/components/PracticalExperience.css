@@ -1,28 +1,58 @@
 /* src/components/PracticalExperience.css */
 .practical-experience {
-    margin-bottom: 20px;
-  }
-  
-  .practical-experience label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .practical-experience input {
-    padding: 5px;
-    margin-bottom: 10px;
-    width: 100%;
-  }
-  
-  .practical-experience button {
-    padding: 10px;
-    background-color: #ffc107;
-    color: black;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .practical-experience button:hover {
-    background-color: #e0a800;
-  }
-  
+  margin: 30px auto; /* Centering the form */
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px; /* Reduce the overall width */
+  width: 100%; /* Ensure the container takes the full width up to the max-width */
+}
+
+.practical-experience label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #333;
+}
+
+.practical-experience input {
+  padding: 8px;
+  margin-bottom: 12px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 13px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.practical-experience input:focus {
+  border-color: #ffc107;
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 193, 7, 0.3);
+}
+
+.practical-experience button {
+  padding: 8px 16px;
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  width: 100%; /* Ensure the button fills the container width */
+}
+
+.practical-experience button:hover {
+  background-color: #e0a800;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.practical-experience button:active {
+  background-color: #c69500;
+}
