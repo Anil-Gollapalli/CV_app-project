@@ -1,13 +1,14 @@
-/* src/components/GeneralInfo.css */
 .general-info {
-  margin: 30px auto; /* Centering the form */
+  margin: 20px 0;
   padding: 16px;
   border: 1px solid #ddd;
   border-radius: 6px;
   background-color: #f9f9f9;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  max-width: 400px; /* Reduce the overall width */
-  width: 100%; /* Ensure the container takes the full width up to the max-width */
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 0;
+  box-sizing: border-box;
 }
 
 .general-info label {
@@ -45,7 +46,7 @@
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  width: 100%; /* Ensure the button fills the container width */
+  width: 100%;
 }
 
 .general-info button:hover {
@@ -55,4 +56,23 @@
 
 .general-info button:active {
   background-color: #1e7e34;
+}
+
+.general-info .form-group {
+  margin-bottom: 12px;
+}
+
+.general-info .form-header {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #222;
+  text-align: left;
+}
+
+.general-info .input-error {
+  font-size: 11px;
+  color: #d9534f;
+  margin-top: -8px;
+  margin-bottom: 8px;
 }

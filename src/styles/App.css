@@ -1,49 +1,45 @@
-/* src/App.css */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
     padding: 20px;
-  }
-  
-  .app-container {
+    display: block;
+}
+
+.app-container {
     width: 100%;
     max-width: 1200px;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: auto;
-  }
-  
-  h1 {
-    text-align: center;
+    margin: 0;
+}
+
+h1 {
     font-size: 24px;
     font-weight: 600;
-    color: #333;
+    color: #bd0808fa;
     margin-bottom: 20px;
-  }
-  
-  form {
+    text-align: center;
+}
+
+form {
     display: flex;
     flex-direction: column;
-  }
-  
-  .form-group {
+}
+
+.form-group {
     margin-bottom: 15px;
-  }
-  
-  button {
+}
+
+button {
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
@@ -51,30 +47,74 @@
     font-weight: 600;
     cursor: pointer;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     opacity: 0.9;
-  }
-  
-  button:active {
+}
+
+button:active {
     background-color: #0056b3;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Add styles for individual sections */
-  .education-experience, .general-info, .practical-experience {
+}
+
+.education-experience, 
+.general-info, 
+.practical-experience {
     margin-bottom: 30px;
-  }
-  
-  /* Responsive Styling */
-  @media (max-width: 768px) {
+    padding: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.education-experience,
+.general-info,
+.practical-experience {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+@media (max-width: 768px) {
     .app-container {
-      padding: 15px;
+        padding: 15px;
     }
-  
+
     h1 {
-      font-size: 20px;
+        font-size: 20px;
     }
-  }
-  
+
+    .form-group {
+        margin-bottom: 12px;
+    }
+
+    input, textarea {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    button {
+        font-size: 13px;
+    }
+}
