@@ -296,7 +296,7 @@ const App = () => {
         <p>Title: {education.title}</p>
         <p>Date: {education.date}</p>
 
-        <h3>Practical Experience</h3>
+        <h3>Work Experience</h3>
         <p>Company: {experience.company}</p>
         <p>Position: {experience.position}</p>
         <p>Responsibilities: {experience.responsibilities}</p>
